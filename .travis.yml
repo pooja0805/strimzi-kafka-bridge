@@ -1,6 +1,8 @@
 dist: bionic
 sudo: required
 language: java
+branches:
+    - try-builds
 jobs:
   fast_finish: true
   include:
